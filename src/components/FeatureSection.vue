@@ -2,6 +2,33 @@
 export default {
   data() {
     return {
+      listLink: [
+        {
+          name: "DIGITAL COMICS",
+          src: '/img/buy-comics-digital-comics.png',
+          alt: "Digital Comic"
+        },
+        {
+          name: "DC MERCHANDISE",
+          src: '/img/buy-comics-merchandise.png',
+          alt: "DC Merchandise"
+        },
+        {
+          name: "SUBSCRIPTION",
+          src: '/img/buy-comics-subscriptions.png',
+          alt: "Subscription"
+        },
+        {
+          name: "COMIC SHOP LOCATOR",
+          src: 'img/buy-comics-shop-locator.png',
+          alt: "Comic Shop Locator"
+        },
+        {
+          name: "DC POWER VISA",
+          src: '/img/buy-dc-power-visa.svg',
+          alt: "DC Power VISA"
+        }
+      ]
     }
   }
 }
@@ -10,27 +37,10 @@ export default {
 <template>
   <section class="feature-section">
     <div class="container">
-      <div>
-        <img src="../assets/img/buy-comics-digital-comics.png" alt="Digital Comics">
-        <p>DIGITAL COMICS</p>
+      <div v-for="itemLink in listLink">
+        <img :src="itemLink.src" :alt="itemLink.alt">
+        <p>{{ itemLink.name }}</p>
       </div>
-      <div>
-        <img src="../assets/img/buy-comics-merchandise.png" alt="DC Merchandise">
-        <p>DC MERCHANDISE</p>
-      </div>
-      <div>
-        <img src="../assets/img/buy-comics-subscriptions.png" alt="Subscription">
-        <p>SUBSCRIPTION</p>
-      </div> 
-      <div>
-        <img src="../assets/img/buy-comics-shop-locator.png" alt="Comic Shop Locator">
-        <p>COMIC SHOP LOCATOR</p>
-      </div>
-      <div>
-        <img src="../assets/img/buy-dc-power-visa.svg" alt="DC Power VISA">
-        <p>DC POWER VISA</p>
-      </div>
-
     </div>
 
   </section>

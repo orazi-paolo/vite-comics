@@ -2,7 +2,28 @@
 export default {
   data() {
     return {
-      
+      listSocial: [
+        {
+          name: 'Facebook',
+          src:'/img/footer-facebook.png'
+        },
+        {
+          name: 'Twitter',
+          src:'/img/footer-twitter.png'
+        },
+        {
+          name: 'Youtube',
+          src:'/img/footer-youtube.png'
+        },
+        {
+          name: 'Pinterest',
+          src:'/img/footer-pinterest.png'
+        },
+        {
+          name: 'Periscope',
+          src:'/img/footer-periscope.png'
+        }
+      ]
     }
   }
 }
@@ -14,11 +35,7 @@ export default {
       <button type="button">SIGN-UP NOW!</button>
       <div class="nav-footer">
         <p>FOLLOW US</p>
-        <a href="#"><img src="../assets/img/footer-facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="../assets/img/footer-twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="../assets/img/footer-youtube.png" alt="Youtube"></a>
-        <a href="#"><img src="../assets/img/footer-pinterest.png" alt="Pinterest"></a>
-        <a href="#"><img src="../assets/img/footer-periscope.png" alt="Periscope"></a>
+        <a href="#" v-for="listSocialItem in listSocial"><img :src=listSocialItem.src :alt=listSocialItem.name></a>
       </div>
 
     </div>

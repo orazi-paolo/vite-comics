@@ -24,7 +24,7 @@ export default {
     <header>
         <div class="container">
             <div class="col">
-                <img src="../assets/img/favicon.ico" alt="Main logo">
+                <img src="/img/favicon.ico" alt="Main logo">
             </div>
             <div class="navbar">
                 <ul>

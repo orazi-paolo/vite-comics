@@ -91,7 +91,7 @@ export default {
 
 <style lang="scss" scoped>
 footer{
-  background-image: url(../assets/img/footer-bg.jpg);
+  background-image: url(/img/footer-bg.jpg);
   .main-footer{
     height: 300px;
     display: flex;
@@ -114,7 +114,7 @@ footer{
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      background-image: url(../assets/img/dc-logo-bg.png);
+      background-image: url(/img/dc-logo-bg.png);
     }
   }
 }
