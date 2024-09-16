@@ -29,7 +29,7 @@ export default {
             <div class="navbar">
                 <ul>
                     <li v-for="navItem in navbarHeader">
-                        <a href="#"> {{ navItem }}</a>
+                        <a href="#"> {{ navItem.toUpperCase() }}</a>
                     </li>
                 </ul>
             </div>
@@ -64,6 +64,8 @@ header{
             text-align: center;
                a{
                    color: #4a4647;
+                   font-size: 12px;
+
                    &:hover{
                     color: blue;
                    }
