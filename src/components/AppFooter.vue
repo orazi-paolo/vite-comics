@@ -15,11 +15,6 @@ export default {
 
 <template>
 
-    <footer>
-        <h1>
-            hello
-        </h1>
-    </footer>
     <SignUpNavbar />
 
 </template>

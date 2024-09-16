@@ -15,9 +15,7 @@ export default {
 
 <template>
 <main>
-    <h1>
-        hello
-    </h1>
+  
 </main>
 
 <FeatureSection />

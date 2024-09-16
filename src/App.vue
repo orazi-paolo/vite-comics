@@ -19,11 +19,30 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
-  <AppMain />
-  <AppFooter /> 
 
+    <AppHeader />
+    <AppMain />
+    <AppFooter /> 
+    
 </template>
 
-<style scoped>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none; 
+}
+ul{
+  list-style-type: none;
+}
 </style>
