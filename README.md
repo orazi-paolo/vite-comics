@@ -39,6 +39,7 @@ It contains a button that would be used to subscribe and finally some links to s
 ### Functionality 
 - HTML
 - CSS
+- SCSS
 - Javascript
 - Vue
 - Vite & Node.js (to create the project)
