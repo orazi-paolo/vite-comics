@@ -1,46 +1,43 @@
-# DC Comics test web page
-This project represents a DC Comics web page, it was made to practice with components. It includes a header, a main section, and a footer,.
-## Project Structure
-### 1. Header
-The header contains the DC Comics logo and a horizontal navigation menu with the following links:
+# DC Comics Test Web Page
+This project is a copy of an old DC Comics web page and was made to practice using Vue.js components and props. It includes a header, main section and footer, implemented using Vue components broken down as follows.
+## Project structure
+### 1. AppHeader
+Contains the DC Comics logo and a horizontal navigation menu with the following links:
 - Characters
-- Comics
-- Movies 
+- Comics 
+- Movies
 - TV 
-- Games 
+- Games
 - Collectibles
 - Videos
 - Fans
-- News 
+- News
 - Shop
 
-This section would allow users to easily navigate through the different contents of the site.
+This section allows users to easily navigate between the different contents of the site if there are any.
+### 2. AppMain
+The main section is managed by the AppMain component, which in turn is divided into other components to organize the content:
+#### 2.1 AppMainJumbotron
+The component represents the background image at the top of the page and the button for the Current Series.
+#### 2.2 AppMainCurrentSeries
+This component contains a grid of comic book covers, each with the series title.
+#### 2.3 AppMainFeatureSection
+Here you will see a blue bar with icons and links to various services.
 
-### 2. Main Content
-A central black block with the words "Content goes here" written on it, which is intended to house the main content.
-
-#### Feature Section 
-Directly below the main content, there is a blue bar that acts as a quick action bar. This section would include links and icons for the following services:
-- Digital Comics
-- DC Merchandise
-- Subscription
-- Comic Shop Locator
-- DC Power Visa
-
-### 3. Footer
-The footer is divided into various informative sections:
+### 3. AppFooter
+The footer is managed by the AppFooter component and is divided into several informative sections:
 - DC Comics
 - DC
 - Sites
 - Shop
-### Footer Navbar
-It contains a button that would be used to subscribe and finally some links to social media.
+#### 3.1 AppFooterSignUpNavbar
+In the footer we find the following component that includes a "Sign Up Now" button that could be used to register, as well as links to DC Comics' social media profiles.
 
-### Functionality 
+## Functionality
+The project was built using the following technologies:
 - HTML
 - CSS
 - SCSS
-- Javascript
-- Vue
-- Vite & Node.js (to create the project)
+- JS
+- Vue.js
 
