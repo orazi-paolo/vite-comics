@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
 section.jumbotron{
     height: 300px;
-    background-image: url(/public/img/jumbotron.jpg);
+    background-image: url(/img/jumbotron.jpg);
     background-size: cover;
     div{
         position: relative;

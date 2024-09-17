@@ -33,6 +33,7 @@ export default {
   box-sizing: border-box;
 }
 body{
+  font-family: 'Open Sans', sans-serif;
   background-color: black;
 }
 .container{
