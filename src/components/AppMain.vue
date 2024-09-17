@@ -103,6 +103,9 @@ export default {
     :thumbType= "currentSeriesItem.type"
      />
   </div>
+  <div class="button-main">
+    <button class="button-base"><strong>LOAD MORE</strong></button>
+  </div>
 </main>
 <AppMainFeatureSection />
 </template>
@@ -115,6 +118,15 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+  }
+  .button-main{
+    margin-top: 30px;
+    text-align: center;
+
+    .button-base{
+      padding: 5px 50px;
+      cursor: pointer;
+    }
   }
 }
 </style>
