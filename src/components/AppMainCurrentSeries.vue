@@ -29,24 +29,27 @@ export default {
 <template>
         <div class="thumb">
             <img :src="thumbImageUrl" :alt="thumbSeries" />
-            <p>{{ thumbSeries }}</p>
+            <p>{{ thumbSeries.toUpperCase() }}</p>
         </div>
 </template>
 
 <style lang="scss" scoped>
     .thumb{
-        height: 150px;
+        height: 250px;
         width: calc((100% / 6) - 20px);
         text-align: center;
+        cursor: pointer;
         img{
-            height: 100px;
+            height: 200px;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
             object-position: top;
        }
         p{
             color: white;
             text-align: center;
+            padding-top: 10px;
+            font-size: 12px;
         }
     }
 </style>

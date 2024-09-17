@@ -31,6 +31,7 @@ section.jumbotron{
             position: absolute;
             bottom: -20px;
             left: 0;
+            cursor: pointer;
         }
     }
 }
