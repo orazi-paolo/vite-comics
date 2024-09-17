@@ -1,9 +1,9 @@
 <script>
-import SignUpNavbar from './SignUpNavbar.vue';
+import AppFooterSignUpNavbar from './AppFooterSignUpNavbar.vue';
 
 export default {
     components: {
-        SignUpNavbar
+        AppFooterSignUpNavbar
     },
   data() {
     return {
@@ -83,7 +83,7 @@ export default {
       </div>
     </section>
 
-    <SignUpNavbar />
+    <AppFooterSignUpNavbar />   
   </footer>
 
 

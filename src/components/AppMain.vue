@@ -1,9 +1,11 @@
 <script>
-import FeatureSection from './FeatureSection.vue';
+import AppMainFeatureSection from './AppMainFeatureSection.vue';
+import AppMainJumbotron from './AppMainJumbotron.vue';
 
 export default {
     components: {
-        FeatureSection
+        AppMainFeatureSection,
+        AppMainJumbotron
     },
   data() {
     return {
@@ -14,11 +16,12 @@ export default {
 </script>
 
 <template>
+  <AppMainJumbotron />
 <main class="container">
   <p> <strong>--> Content goes here <--</strong></p>
 </main>
 
-<FeatureSection />
+<AppMainFeatureSection />
 </template>
 
 <style lang="scss" scoped>

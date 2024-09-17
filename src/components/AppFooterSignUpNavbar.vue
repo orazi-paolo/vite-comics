@@ -43,7 +43,7 @@ export default {
   
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .navbar-footer{
   background-color: #303030;
   padding: 40px 0 40px 0;

@@ -26,7 +26,7 @@ export default {
     
 </template>
 
-<style>
+<style lang="scss">
 * {
   margin: 0;
   padding: 0;
@@ -44,5 +44,10 @@ a{
 }
 ul{
   list-style-type: none;
+}
+.button-base{
+  background-color: #0082f9;
+  color: white;
+
 }
 </style>
